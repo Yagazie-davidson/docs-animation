@@ -106,11 +106,11 @@ export default function Home() {
           </motion.div>
           <motion.div
             className="w-fit z-50"
-            initial={{ scale: 0.5, y: 300, rotate: 0, x: -300 }}
+            initial={{ scale: 0.5, y: 300, rotate: 0, x: -400 }}
             animate={
               isAnimating
                 ? { x: 170, y: 650, scale: 0.65, rotate: 0 }
-                : { x: -300, y: 300, scale: 0.5, rotate: 0 }
+                : { x: -400, y: 300, scale: 0.5, rotate: 0 }
             }
             // transition={{ duration: 0.5 }}
           >
@@ -234,11 +234,11 @@ export default function Home() {
           </motion.div>
           <motion.div
             className="w-fit z-0"
-            initial={{ scale: 0.5, y: 350, rotate: 30, x: -500 }}
+            initial={{ scale: 0.5, y: 350, rotate: 30, x: -700 }}
             animate={
               isAnimating
                 ? { x: 0, y: 240, scale: 0.65, rotate: 0 }
-                : { x: -600, y: 350, scale: 0.5, rotate: 30 }
+                : { x: -700, y: 350, scale: 0.5, rotate: 30 }
             }
             // transition={{ duration: 0.5 }}
           >
